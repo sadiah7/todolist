@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todolist</title>
+</head>
+<body>
+    <h3>Items</h3>
+    <form action="." id="myform">
+        <label for="item">Enter item name:</label>
+        <input type="text" id="item">
+        <input class="btn" type="submit" onsubmit="addItem2()" value="Submit">
+    </form>
+    <ul id="items">
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ul>
+    <button class="button" onclick="addItem()">Add Item</button>
+    <script src="dom.js"></script>
+</body>
+</html>
